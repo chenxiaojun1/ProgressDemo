@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimProgressView">
+        <attr name="start_progress" format="float" />
+        <attr name="progress_max" format="float" />
+        <attr name="progress" format="float" />
+        <attr name="progress_color" format="color" />
+        <attr name="progress_background_color" format="color" />
+
+        <attr name="anim_duration" format="integer" />
+        <attr name="apv_stroke_width" format="dimension" />
+        <attr name="apv_stroke_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcAnimProgressView">
+
+        <attr name="inner_background_color" format="color" />
+        <attr name="progress_width" format="dimension" />
+        <attr name="apv_style">
+            <enum name="ARC_STROKE" value="0" />
+            <enum name="ARC_FILL" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

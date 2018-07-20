@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/bt1"/>
+
+    <com.progressdemo.TestAnimProgressView
+        android:id="@+id/aapv"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android_custom:apv_stroke_width="1dp"
+        android_custom:apv_stroke_color="#5D9CA9"
+        android_custom:progress="0"
+        android_custom:progress_background_color="#8EFBE9"
+        android_custom:progress_color="#8EFBE9"
+        android_custom:progress_width="7dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/bt"/>
+
+</LinearLayout>
